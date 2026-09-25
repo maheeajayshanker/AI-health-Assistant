@@ -10,7 +10,7 @@ load_dotenv()
 # HF_token=os.getenv("HF_TOKEN")
 
 client=OpenAI(base_url="https://router.huggingface.co/v1",
-              api_key="")
+              api_key="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")
 
 ## ---------------------LLM-------------#
 st.set_page_config(layout="wide")
